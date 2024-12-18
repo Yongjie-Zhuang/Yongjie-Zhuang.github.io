@@ -4,14 +4,61 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% if site.author.googlescholar or site.author.researchgate %}
+  <div style="display: inline;">
+    You can also find my articles on 
+    {% if site.author.googlescholar %}
+      <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+    {% endif %}
+    {% if site.author.googlescholar and site.author.researchgate %}
+      and
+    {% endif %}
+    {% if site.author.researchgate %}
+      <a href="{{ site.author.researchgate }}">ResearchGate</a>
+    {% endif %}
+    .
+  </div>
 {% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+<!-- Define publication categories -->
+{% assign categories = "Peer-Reviewed Journal Papers,Full-Length Conference Papers,Abstract-Only Conference Presentations and Posters" | split: "," %}
+
+<!-- Loop through categories -->
+{% for category in categories %}
+  <h2>{{ category }}</h2>
+  <hr />
+
+  {% assign counter = 0 %} <!-- Reset counter for each category -->
+
+  <!-- Filter and sort publications by category and date -->
+  {% assign filtered_posts = site.publications | where: "category", category | sort: "date" | reverse %}
+
+  <!-- Loop through sorted publications -->
+  {% for post in filtered_posts %}
+      {% assign counter = counter | plus: 1 %} <!-- Increment numbering -->
+
+      <div style="margin-bottom: 20px;">
+        <!-- Numbering and citation -->
+          <strong>{{ counter }}.</strong>
+          {{ post.citation | replace: "Zhuang, Y.", "<strong>Zhuang, Y.</strong>" }}
+
+        <!-- Links -->
+          {% if post.doi %}
+            <a href="{{ post.doi }}" target="_blank" style="margin-left: 30px;">DOI</a>
+          {% endif %}
+          {% if post.full_text %}
+            <a href="{{ post.full_text }}" target="_blank" style="margin-left: 30px;">Full Text</a>
+          {% endif %}
+          {% if post.other_link %}
+            <a href="{{ post.other_link }}" target="_blank" style="margin-left: 30px;">Other Link</a>
+          {% endif %}
+      </div>
+  {% endfor %}
+{% endfor %}
+
+<!-- This is the original code, I changed it to get numbering in the publication:
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
@@ -31,6 +78,6 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
+-->
 
 
