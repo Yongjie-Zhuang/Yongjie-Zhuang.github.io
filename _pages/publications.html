@@ -48,11 +48,11 @@ author_profile: true
           {% if post.doi %}
             <a href="{{ post.doi }}" target="_blank" style="margin-left: 30px;">DOI</a>
           {% endif %}
-          {% if post.full_text %}
-            <a href="{{ post.full_text }}" target="_blank" style="margin-left: 30px;">Full Text</a>
+          {% if post.Preprint %}
+            <a href="{{ post.Preprint }}" target="_blank" style="margin-left: 30px;">Preprint</a>
           {% endif %}
-          {% if post.other_link %}
-            <a href="{{ post.other_link }}" target="_blank" style="margin-left: 30px;">Other Link</a>
+          {% if post.presentation %}
+            <a href="{{ post.presentation }}" target="_blank" style="margin-left: 30px;">Presentation Slides</a>
           {% endif %}
       </div>
   {% endfor %}
