@@ -4,6 +4,9 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+Below is a list of my publications, accompanied by the preprint or published version.
+Please note that the publisher retains the copyright, and the copy provided here is for personal use only.
+Any other use requires prior permission from the author and the respective publisher. 
 {% if site.author.googlescholar or site.author.researchgate %}
   <div style="display: inline;">
     You can also find my articles on 
@@ -21,6 +24,14 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
+
+<h2>PhD Dissertation</h2>
+<hr />
+<div style="margin-bottom: 20px;">
+  <strong>Zhuang, Y. </strong> (2023). Efficient filter design and implementation approaches for multi-channel constrained active sound control. (Doctoral dissertation, Purdue University Graduate School).
+  <a href="https://doi.org/10.25394/PGS.23722410.v1" target="_blank" style="margin-left: 10px;">DOI</a>
+  <a href="/files/PhD_Dissertation_Yongjie_Zhuang.pdf" target="_blank" style="margin-left: 10px;">Published</a>
+</div>
 
 <!-- Define publication categories -->
 {% assign categories = "Peer-Reviewed Journal Papers,Full-Length Conference Papers,Abstract-Only Conference Presentations and Posters" | split: "," %}
@@ -46,13 +57,16 @@ author_profile: true
 
         <!-- Links -->
           {% if post.doi %}
-            <a href="{{ post.doi }}" target="_blank" style="margin-left: 30px;">DOI</a>
+            <a href="{{ post.doi }}" target="_blank" style="margin-left: 10px;">DOI</a>
           {% endif %}
           {% if post.Preprint %}
-            <a href="{{ post.Preprint }}" target="_blank" style="margin-left: 30px;">Preprint</a>
+            <a href="{{ post.Preprint }}" target="_blank" style="margin-left: 10px;">Preprint</a>
+          {% endif %}
+          {% if post.Published %}
+            <a href="{{ post.Published }}" target="_blank" style="margin-left: 10px;">Published</a>
           {% endif %}
           {% if post.presentation %}
-            <a href="{{ post.presentation }}" target="_blank" style="margin-left: 30px;">Presentation Slides</a>
+            <a href="{{ post.presentation }}" target="_blank" style="margin-left: 10px;">Presentation Slides</a>
           {% endif %}
       </div>
   {% endfor %}
