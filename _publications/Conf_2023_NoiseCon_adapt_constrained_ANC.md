@@ -4,4 +4,5 @@ citation: "Zhuang, Y., & Liu, Y. (2023). An adaptive constrained multi-channel a
 date: 2023-05-25
 doi: "https://doi.org/10.3397/NC_2023_0074"
 Published: "/files/published_2023_adaptive_constrained_ANC.pdf"
+presentation: "/files/slides_2023_adaptive_constrained_ANC.pdf"
 ---
