@@ -59,6 +59,9 @@ Any other use requires prior permission from the author and the respective publi
           {% if post.doi %}
             <a href="{{ post.doi }}" target="_blank" style="margin-left: 10px;">DOI</a>
           {% endif %}
+          {% if post.abstract %}
+            <a href="{{ post.abstract }}" target="_blank" style="margin-left: 10px;">Abstract</a>
+          {% endif %}
           {% if post.Preprint %}
             <a href="{{ post.Preprint }}" target="_blank" style="margin-left: 10px;">Preprint</a>
           {% endif %}
