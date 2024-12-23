@@ -11,27 +11,23 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* <strong>Ph.D.</strong>, Mechanical Engineering, Purdue University, West Lafayette, Indiana, USA, 2023
+* <strong>B.S.</strong>, Mechanical Engineering, Shanghai Jiao Tong University, Shanghai, China, 2018
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
+* Dec. 2024 to present: <strong>Applied Scientist</strong>, Amazon Web Services (AWS), Seattle, WA, USA
+
+* Aug. 2023 to Dec. 2024: <strong>Postdoctoral Associate</strong>, Electrical & Computer Engineering, Stony Brook University, Stony Brook, NY, USA
+* Aug. 2023 to Apr. 2024: <strong>Visiting Scholar</strong>, Electrical & Computer Engineering, University of Illinois Urbana-Champaign, Urbana-Champaign, IL, USA
+
+<!-- 
+
+* Dec. 2024 to present: Applied Scientist, Amazon Web Services (AWS), Seattle, WA, USA
   * Github University
   * Duties includes: Updates and improvements to template
   * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
 * Skill 1
@@ -62,3 +58,5 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+
+-->
