@@ -1,6 +1,6 @@
 ---
-title: "Efficient "
-excerpt: "Short description of research item number 1<br/><img src='/images/500x300.png'>"
+title: "Efficient multi-channel active noise control (ANC) filter design"
+excerpt: "Short description of research item number 1<br/><img src='/images/fig_ANC_cover.png' style='width: 200px; height: auto;'>"
 collection: research
 ---
 
