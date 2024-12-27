@@ -27,12 +27,13 @@ Work experience
 Awards
 ======
 * Leo Beranek Student Medal for Excellence in the Study of Noise Control, INCE-USA (2023)
-* Ward A. Lambert Graduate Teaching Fellowship, Purdue University (Jan. 2022)
-* Hallberg Foundation Award, NOISE-CON 2022 Conference (Jun. 2022)
-* Classic Papers in Noise Control Presentation Award, NOISE-CON 2020 Conference (Nov. 2020)
-* Student Paper Award, NOISE-CON 2019 Conference (Aug. 2019)
-* Michiko So Finegold Award, NOISE-CON 2019 Conference (Aug. 2019) 
-* Bottomley Research Scholarship, Purdue University (Dec. 2017)
+* Ward A. Lambert Graduate Teaching Fellowship, Purdue University (2022)
+* Hallberg Foundation Award, NOISE-CON 2022 Conference (2022)
+* Classic Papers in Noise Control Presentation Award, NOISE-CON 2020 Conference (2020)
+* Student Paper Award, NOISE-CON 2019 Conference (2019)
+* Michiko So Finegold Award, NOISE-CON 2019 Conference (2019) 
+* Bottomley Research Scholarship, Purdue University (2017)
+* Best Paper Award, 24Th international conference on mechatronics and machine vision in practice (M2VIP) (2017)
 * China National Scholarship (Nov. 2017)
 
 
