@@ -1,7 +1,9 @@
 ---
-title: "Efficient multi-channel active noise control (ANC) filter design"
-excerpt: "Short description of research item number 1<br/><img src='/images/fig_ANC_cover.png' style='width: 200px; height: auto;'>"
+title: "Efficient constrained multi-channel active noise control (ANC) filter design"
+excerpt: "Active noise control (ANC) involves using active sources, such as speakers, to produce anti-noise that cancels out the original unpleasant noise. A constrained optimization problem can be formulated to incorporate real-life practical constraints into the ANC controller design, such as robust stability, noise amplification, and output power constraints. I developed a convex reformulation method for this ANC optimization problem, enabling it to be solved efficiently. The computational time can be reduced from the order of hours to seconds. <br/><img src='/images/Research/Constrained_ANC/ANC_cover.png' style='width: 200px; height: auto;'>"
 collection: research
 ---
 
-This is an item in your research. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+What is Active Noise Control/Cancellation (ANC)? 
+<br/><img src='/images/Research/Constrained_ANC/ANC_intro.png' style='max-width: 100%; height: auto;'>
+
