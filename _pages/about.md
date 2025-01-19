@@ -11,7 +11,7 @@ Welcome to my personal website!
 
 I am an Applied Scientist at Amazon Web Services (AWS), focusing on audio enhancement using machine learning. My past work primarily involves acoustic signal processing and active noise cancellation.
 
-On the left sidebar, you’ll find my contact information and links to profiles such as <a href="{{ site.author.googlescholar }}">Google Scholar</a>, <a href="{{ site.author.researchgate }}">ResearchGate</a>, and <a href="{{ site.author.linkedin }}">LinkedIn</a>. Feel free to explore my website!
+On the sidebar or clicking Follow button, you’ll find my contact information and links to profiles such as <a href="{{ site.author.googlescholar }}">Google Scholar</a>, <a href="{{ site.author.researchgate }}">ResearchGate</a>, and <a href="{{ site.author.linkedin }}">LinkedIn</a>. Feel free to explore my website!
 
 <!-- Getting started
 ======
